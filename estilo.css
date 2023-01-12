@@ -1,60 +1,80 @@
 body {
+
+    margin: 0px;
+    padding: 0px;
     background-color: #E8DAB2;
+    width: 800px;
    
 }
 
-header {
 
 
+#header { 
+    font-family: Raleway;
+    font-size: 24px;
+    margin-top:300px;
+    margin-bottom: 200px;
+    height: 20vh;
+    padding: 0 20px;
+
+
+}
+
+.imagem-header {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 369px;
+    position: absolute;
+    top: 5%;
+    transform: translateY(-20%);
+    right: 0;
 }
 
 section {
-position: left;
 
-}
-
-.img1 {
- position: left;
 }
 
 div{
-
     
 }
-
-
-
-.bemv {
-    color: black;
-    text-align: left;
-    font-size: 26px;
+.video{
+    text-align: center;
 }
 
-.salsi {
-    color: black;
-    text-align: left;
-    font-size: 52px;
-}
-
-.img {
-    position: left;
-}
 
 article {
+    font-family: Raleway;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-bottom: 55px;
     box-shadow: 5px 5px 10px;
-    height: 850px;
-    width: 600px;
+    width: 800px;
     border-radius: 10px;
-    padding: 55px;
+    padding: 40px;
     background-color: white
         
 }
-footer {
+.imagem-meio {
+    padding: 25px;
+    height:500px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rodape {
     bottom: 0;
     position: fixed;
-    text-align: right;
+    font-family: Raleway;
+    font-size: larger;
+    text-decoration: none;
     background-color: black;
+    width: 97%;
     color: white;
-    font-style: italic;
-
+    text-align: right;
+    padding: 20px;
 }
+
