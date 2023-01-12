@@ -1,0 +1,60 @@
+body {
+    background-color: #E8DAB2;
+   
+}
+
+header {
+
+
+}
+
+section {
+position: left;
+
+}
+
+.img1 {
+ position: left;
+}
+
+div{
+
+    
+}
+
+
+
+.bemv {
+    color: black;
+    text-align: left;
+    font-size: 26px;
+}
+
+.salsi {
+    color: black;
+    text-align: left;
+    font-size: 52px;
+}
+
+.img {
+    position: left;
+}
+
+article {
+    box-shadow: 5px 5px 10px;
+    height: 850px;
+    width: 600px;
+    border-radius: 10px;
+    padding: 55px;
+    background-color: white
+        
+}
+footer {
+    bottom: 0;
+    position: fixed;
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-style: italic;
+
+}
